@@ -5,8 +5,8 @@ import numpy as np
 # Load trained model
 model = joblib.load("model.pkl")
 
-st.title("Rail Delay Predictor (ligma sigma ligma sigma ligma sigma)")
-st.write("Predict whether a train is likely to be delayed (SKRRRRRRRRRA)")
+st.title("Rail Delay Predictor")
+st.write("Predict whether a train is likely to be delayed")
 
 # -----------------------
 # USER INPUTS
